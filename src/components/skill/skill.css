@@ -1,0 +1,86 @@
+.graphbox-container {
+    display: flex;
+    grid-template-columns: 35% 50%;
+    gap: 1rem;
+}
+
+.graphbox {
+    flex: 1 1 17px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    background: #777;
+}
+
+.graphbox img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 50px;
+}
+
+.box {
+    flex: 1;
+}
+
+.box .progress h3 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.box .progress .bar {
+    overflow: hidden;
+    height: 10px;
+    background: #777;
+    margin-bottom: 10px;
+} 
+
+.box .progress .bar span {
+    background: rgb(56, 149, 203);
+    height: 100%;
+    display: block;
+}
+
+.box:first-child .progress:nth-child(1) .bar span {
+    width: 90%;
+}
+.box:first-child .progress:nth-child(2) .bar span {
+    width: 90%;
+}
+.box:first-child .progress:nth-child(3) .bar span {
+    width: 80%;
+}
+.box:first-child .progress:nth-child(4) .bar span {
+    width: 75%;
+}
+.box:last-child .progress:nth-child(1) .bar span {
+    width: 60%;
+}
+.box:last-child .progress:nth-child(2) .bar span {
+    width: 65%;
+}
+.box:last-child .progress:nth-child(3) .bar span {
+    width: 80%;
+}
+.box:last-child .progress:nth-child(4) .bar span {
+    width: 60%;
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px){
+
+}
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px){
+
+}
