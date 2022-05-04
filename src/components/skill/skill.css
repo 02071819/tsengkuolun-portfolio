@@ -5,7 +5,6 @@
 }
 
 .graphbox {
-    flex: 1 1 17px;
     text-align: center;
     border-radius: 5px;
     padding: 20px;
@@ -14,12 +13,117 @@
 
 .graphbox img {
     height: 60px;
-    width: 60px;
-    margin-bottom: 10px;
-    margin-left: 40px;
+    width: 35%;
 }
 
-.box-container {
+.graphbox h3{
+    width: 100%;
+}
+
+.graphbox2-container {
+    display: flex;
+    grid-template-columns: 35% 50%;
+    gap: 1rem;
+}
+
+.graphbox2 {
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    background: #777;
+}
+
+.graphbox2 img {
+    width: 100%;
+    height: 190px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.graphbox2 h3{
+    width: 100%;
+    margin: 10px;
+    font-size: medium;
+}
+
+.mySwiper {
+    width: 50%;
+    height: 100%;
+}
+
+.mySwiper2{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.model{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+}
+
+.model.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.model img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px;
+    margin: 0 auto;
+}
+
+.model .close{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+/* .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -73,7 +177,8 @@
 }
 .box:last-child .progress:nth-child(4) .bar span {
     width: 60%;
-}
+} */
+
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px){

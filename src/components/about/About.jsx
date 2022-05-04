@@ -1,14 +1,14 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/IMG_E0531.JPG";
-import { FaAward } from "react-icons/fa";
+import { MdOutlineComputer } from "react-icons/md";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
+      <h5>關於我</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
@@ -21,29 +21,30 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <MdOutlineComputer className="about__icon" />
+              <h4>Frontend Develop</h4>
+              <h5>前端開發</h5>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h4>UI/UX <br/> Design</h4>
+              <h5>使用者設計</h5>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>30+ Completed</small>
+              <h4>Projects</h4>
+              <h5>5+ Completed</h5>
             </article>
           </div>
           
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            nostrum impedit explicabo corrupti hic necessitatibus repellendus
-            dignissimos adipisci eos enim at eius saepe excepturi soluta
-            delectus, voluptates magni cum vero.
+            國立臺北教育大學 數位科技設計學系即將畢業，在學過程中接觸並喜愛上網站開發，決定以網站開發工程師作為職涯起點。<br /><br />
+            自學PHP、MySQL、NodeJS、MongoDB一年，增進自己後端能力，並在學生時期與3位同學完成一個完整的專案。
+            在專案中負責專案管理監督、後端資料庫撰寫的角色，製作一個小型B2C電子商務網站。<br /><br />
+            我也會不斷的透過線上資源來精進我的開發技能，除了持續進修程式技能外，也喜愛參與關於商務、
+            UIUX或產品管理的分享活動，希望藉由接觸多元活動，能跳脫工程師思維，站在多方角度來學習開發產品。<br /><br />
           </p>
         </div>
       </div>

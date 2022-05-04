@@ -1,5 +1,5 @@
 .experience__session {
-    height: 150vh;
+    height: auto;
 }
 
 .work__filters {
@@ -50,16 +50,27 @@
     margin: 1.2rem 0 2rem;
 }
 
+.project-title{
+    text-align: center;
+}
+
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    font-weight: 600;
+    position: relative;
+    left: 5%;
+}
+
+.project-info{
+    height: 170px;
 }
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px){
     .experience__session {
-        height: 190vh;
+        height: auto;
     }
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
@@ -70,7 +81,7 @@
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px){
     .experience__session {
-        height: 535vh;
+        height: auto;
     }
     .portfolio__container {
         grid-template-columns: 1fr;

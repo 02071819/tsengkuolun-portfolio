@@ -1,12 +1,14 @@
 import React from "react";
 import "./header.css";
 import CV from "../../assets/個人簡歷.docx.pdf";
-import ME from "../../assets/IMG_E0531.JPG";
+import ME from "../../assets/IMG_3013.JPG";
 import HeaderSocials from "./HeaderSocials";
+import background from "../../assets/background.jpg";
 
 const Header = () => {
   return (
     <header>
+      <img src={background} alt="" class="header__bg" />
       <div className="container header__container">
         <div className="header_word">
           <h5>Hello I'm</h5>
@@ -16,7 +18,7 @@ const Header = () => {
           <h4>Work hard,be kind and amazing things will happen.</h4>  
 
           <div className="cta">
-            <a href={CV} download className="btn">
+            <a href={CV} download className="header_btn">
               Download CV
             </a>
           </div>
@@ -24,7 +26,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="me">
-          <img src={ME} alt="me" />
+          {/* <img src={ME} alt="me" /> */}
         </div>
       </div>
     </header>
