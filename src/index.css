@@ -132,4 +132,8 @@ img {
     section > h2 {
         margin-bottom: 2rem;
     }
+    section > h5 {
+        position: relative;
+        bottom: 2rem;
+    }
 }

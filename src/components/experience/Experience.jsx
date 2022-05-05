@@ -22,7 +22,7 @@ const data = [
     title: "台東民宿觀光旅遊網",
     content:"React.js、Commerce.js框架撰寫，減輕旅遊前過度繁瑣的準備流程，讓使用者能夠在旅遊前也能保持愉快的心情。",
     github: "https://github.com/02071819/react_final",
-    demo: "https://www.youtube.com/watch?v=1Xfpi7hPZqA",
+    demo: "https://react-final-nine.vercel.app/",
     filter: "web"
   },
   {
@@ -78,7 +78,7 @@ const Experience = () => {
         <span className="work__item" onClick={() => filterItem('design')}>Design</span>
       </div>
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container" data-aos="fade-up" data-aos-duration="2000">
         {items.map(({ id, image, title, content, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">

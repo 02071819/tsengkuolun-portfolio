@@ -18,6 +18,7 @@ header{
     text-align: left;
     height: 100%;
     position: relative;
+    bottom: 2rem;
 }
 
 .header_word{
@@ -37,7 +38,7 @@ header{
     cursor: pointer;
     transition: var(--transition);
     color: #fff;
-    border: 1px solid var(--color-white);
+    border: 3px solid var(--color-white);
 }
 
 .header_btn:hover {
@@ -78,7 +79,11 @@ header{
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px){
     header {
-        height: 68vh;
+        height: 100vh;
+    }
+    .header_word{
+        position: relative;
+        top: 5rem;
     }
 }
 
@@ -88,6 +93,23 @@ header{
         height: 100vh;
     }
 
+    .header_word{
+        position: relative;
+        top: 3rem;
+        text-align: center;
+    }
+    .header_word h5,h1,h2 {
+        position: relative;
+        bottom: 2rem;
+    }
+    .header_word h4{
+        margin: 0 auto;
+
+    }
+    .header_btn{
+        position: relative;
+        margin: 0 auto;
+    }
     .header__socials{
         display: none;
     }

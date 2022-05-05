@@ -1,3 +1,9 @@
+.contact__section {
+    height: auto;
+    position: relative;
+    top: 5rem;
+}
+
 .contact__container {
     width: 58%;
     display: grid;

@@ -7,19 +7,19 @@ import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="about">
       <h5>關於我</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        <div className="about_me">
           <div className="about__me-image">
             <img src={ME} alt="About Image" />
           </div>
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          <div className="about__cards" data-aos="fade-up" data-aos-duration="2000">
             <article className="about__card">
               <MdOutlineComputer className="about__icon" />
               <h4>Frontend Develop</h4>
@@ -39,7 +39,7 @@ const About = () => {
             </article>
           </div>
           
-          <p>
+          <p data-aos="fade-up" data-aos-duration="3000">
             國立臺北教育大學 數位科技設計學系即將畢業，在學過程中接觸並喜愛上網站開發，決定以網站開發工程師作為職涯起點。<br /><br />
             自學PHP、MySQL、NodeJS、MongoDB一年，增進自己後端能力，並在學生時期與3位同學完成一個完整的專案。
             在專案中負責專案管理監督、後端資料庫撰寫的角色，製作一個小型B2C電子商務網站。<br /><br />

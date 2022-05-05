@@ -91,12 +91,12 @@ const Skill = () => {
         <div className="container graphbox-container">
           <SwiperSlide className="graphbox">
             <img src={HTML} alt="" />
-            <h3>HTML 5</h3>
+            <h3>HTML5</h3>
           </SwiperSlide>
 
           <SwiperSlide className="graphbox">
             <img src={CSS} alt="" />
-            <h3>CSS 3</h3>
+            <h3>CSS3</h3>
           </SwiperSlide>
 
           <SwiperSlide className="graphbox">
@@ -129,11 +129,13 @@ const Skill = () => {
         }}
         modules={[Pagination]}
         className="mySwiper2"
+        data-aos="fade-up" data-aos-duration="2000"
       >
         <div className={model? "model open" : "model"}>
           <img src={tempingSrc} />
           <IoMdCloseCircleOutline onClick={() => setModel(false)} className="close"/>
         </div>
+
         <div className="graphbox2-container">
           {data.map(({ id, Paperimage, title, content }) => {
             return (

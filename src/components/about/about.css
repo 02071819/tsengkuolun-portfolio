@@ -78,9 +78,11 @@
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
+        position: relative;
+        bottom: 2rem;
     }
 
-    .about__me {
+    .about_me {
         width: 50%;
         margin: 2rem auto 4rem;
     }
@@ -92,9 +94,14 @@
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px){
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
+    .about__container{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .about_me {
+        width: 70%;
+        margin: 0 auto;
     }
 
     .about__cards {
