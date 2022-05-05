@@ -21,7 +21,7 @@ const Header = () => {
 
           <div className="cta">
 //             <a href={CV} download className="header_btn">
-//               Download CV
+              Download CV
 //             </a>
           </div>
         </div>
