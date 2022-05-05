@@ -20,9 +20,9 @@ const Header = () => {
           <h4>Work hard,be kind and amazing things will happen.</h4>  
 
           <div className="cta">
-//             <a href={CV} download className="header_btn">
+            <a href={CV} className="header_btn">
               Download CV
-//             </a>
+            </a>
           </div>
         </div>
         <HeaderSocials />
