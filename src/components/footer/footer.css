@@ -19,7 +19,8 @@ footer a {
 }
 
 .footer__socials {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
