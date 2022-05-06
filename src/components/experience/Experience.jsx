@@ -90,7 +90,7 @@ const Experience = () => {
                 <h3 className="project-title">{title}</h3>
                 <p className="project-info">{content}</p>
                 <div className="portfolio__item-cta">
-                  <a href={github} className="btn" target="_blank">專案連結</a>
+                  <a href={github} className="link_btn" target="_blank">專案連結</a>
                   <a href={demo} className="btn btn-primary" target="_blank">作品展示</a>
                 </div>
               </div>
