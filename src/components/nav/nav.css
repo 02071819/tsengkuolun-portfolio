@@ -1,6 +1,7 @@
 nav {
     background: rgba(132, 132, 132, 0.3);
-    width: fit-content;
+    width: 360px;
+    margin: 0 auto;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
@@ -8,6 +9,7 @@ nav {
     transform: translateX(-50%);
     bottom: 2rem;
     display: grid;
+    gap: 1rem;
     grid-auto-flow: column;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
