@@ -43,9 +43,9 @@
 }
 
 form {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    row-gap: 1.2rem;
+    gap: 1.2rem;
 }
 
 input,
