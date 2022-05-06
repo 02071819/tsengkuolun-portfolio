@@ -1,6 +1,6 @@
 nav {
     background: rgba(132, 132, 132, 0.3);
-    width: max-content;
+    width: fit-content;
     display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
