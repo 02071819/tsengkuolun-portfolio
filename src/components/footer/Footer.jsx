@@ -1,6 +1,5 @@
 import React from 'react'
 import './footer.css'
-import workicon from "../../assets/104_icon.png"
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {BsGithub} from 'react-icons/bs'
@@ -22,7 +21,6 @@ const footer = () => {
         <a href="https://instagram.com"><FiInstagram/></a>
         <a href="https://github.com/02071819"><BsGithub/></a>
         <a href="https://www.linkedin.com/in/%E5%9C%8B%E7%B6%B8-%E6%9B%BE-1bb6071a6/"><BsLinkedin/></a>
-        <a href="https://pda.104.com.tw/profile/share/8qw4tyElbEcYXH0coo2tla2bju65SuVn"><img src={workicon} className="workicon"/></a>
       </div>
 
       <div className="footer__copyright" data-aos="fade-up" data-aos-duration="2800">
