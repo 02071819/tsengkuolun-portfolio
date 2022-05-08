@@ -74,7 +74,8 @@
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     position: relative;
-    right: 1rem;
+    top: 2rem
+    right: 2rem;
 }
 
 .link_btn:hover {
