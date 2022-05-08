@@ -66,7 +66,7 @@
 
 .portfolio__item-cta .btn{
     position: relative;
-    top: 2rem;
+    top: 1.3rem;
 }   
 
 .portfolio__item-cta .link_btn{
@@ -79,7 +79,7 @@
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     position: relative;
-    top: 2rem;
+    top: 1.3rem;
     right: 2rem;
 }
 
