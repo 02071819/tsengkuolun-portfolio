@@ -4,7 +4,7 @@ import IMG1 from "../../assets/board1.jpg";
 import IMG2 from "../../assets/board2.jpg";
 import IMG3 from "../../assets/board3.jpg";
 import AppIMG4 from "../../assets/board4.jpg";
-import IMG5 from "../../assets/board5.jpg";
+import IMG5 from "../../assets/board5.png";
 import ArtIMG1 from "../../assets/Artboard 1.jpg";
 
 const data = [
