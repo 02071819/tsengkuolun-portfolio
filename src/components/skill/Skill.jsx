@@ -133,7 +133,7 @@ const Skill = () => {
         </div>
       </Swiper>
 
-      {/* <Swiper
+      <Swiper
         slidesPerView={3}
         spaceBetween={30}
         pagination={{
@@ -160,7 +160,7 @@ const Skill = () => {
             );
           })}
         </div>
-      </Swiper> */}
+      </Swiper>
 
       {/* <div className="container box-container">
         <div className="box">
