@@ -20,31 +20,60 @@
     width: 100%;
 }
 
+.skillboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    margin: 5% 13%;
+}
+
 .graphbox2-container {
-    display: flex;
-    grid-template-columns: 35% 50%;
-    gap: 1rem;
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
+    height: auto;
+    width: auto;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    padding: 5% 5%;
+}
+
+.graphbox2-container h5 {
+    text-align: center;
+    color: var(--color-light);
+    margin-top: 5%;
+}
+
+.graphbox2-container h2 {
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.graphbox2-container:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
 }
 
 .graphbox2 {
-    text-align: center;
-    border-radius: 5px;
-    padding: 20px;
-    background: #777;
+    text-align: justify;
 }
 
-.graphbox2 img {
+/* .graphbox2 img {
     width: 100%;
     height: 190px;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
-}
+} */
 
 .graphbox2 h3{
     width: 100%;
     margin: 10px;
     font-size: medium;
+    cursor: pointer;
+}
+
+.graphbox2 h3:hover {
+    transform: translateY(-.05rem);
 }
 
 .mySwiper {
@@ -182,8 +211,8 @@
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px){
     .graphbox img{
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         margin-bottom: 10px;
      }
  
@@ -191,11 +220,8 @@
          display: none;
      }
      .mySwiper{
-         width: 50vh;
+         width: 80%;
          margin: 0 auto;
-     }
-     .mySwiper2{
-         width: 100vh;
      }
      .model img{
         margin: 0 auto;
@@ -204,13 +230,21 @@
         width: 100%;
         height: 90%;
      }
+     .skillboard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
+     .graphbox2 {
+        margin: 5% 8%; 
+     }
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px){
     .graphbox img{
-       width: 100%;
-       height: 100%;
+       width: 70%;
+       height: 70%;
        margin-bottom: 10px;
     }
 
@@ -221,14 +255,20 @@
         width: 80%;
         margin: 0 auto;
     }
-    .mySwiper2{
-        width: 100%;
-    }
     .model img{
         margin: 0 auto;
         position: relative;
         top: 3rem;
         width: 100%;
-        height: 70%;
-     }
+        height: 55%;
+    }
+    .skillboard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
+    .graphbox2-container h2{
+        font-size: medium;
+        padding-top: 2rem;
+    }
 }
