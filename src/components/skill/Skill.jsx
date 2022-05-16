@@ -24,6 +24,7 @@ import Paper3 from "../../assets/paper3.png";
 import Paper4 from "../../assets/paper4.png";
 import Paper5 from "../../assets/paper5.JPG";
 import Paper6 from "../../assets/paper6.PNG";
+import Paper7 from "../../assets/paper7.PNG";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Skill = () => {
@@ -42,18 +43,24 @@ const Skill = () => {
     },
     {
       id: 3,
+      Paperimage: Paper7,
+      title: "HISKIO完課證明",
+      content: "Node.js打造購物車與後台管理系統",
+    },
+    {
+      id: 4,
       Paperimage: Paper4,
       title: "參與 TAICHI 2019",
       content: "大會志工",
     },
     {
-      id: 4,
+      id: 5,
       Paperimage: Paper5,
       title: "DeltaMOOCx證明",
       content: "智慧商務導論",
     },
     {
-      id: 5,
+      id: 6,
       Paperimage: Paper6,
       title: "台大資訊系統訓練班證明",
       content: "PHP+MySQL程式設計班",
