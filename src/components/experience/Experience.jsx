@@ -5,6 +5,7 @@ import IMG2 from "../../assets/board2.jpg";
 import IMG3 from "../../assets/board3.jpg";
 import AppIMG4 from "../../assets/board4.jpg";
 import IMG5 from "../../assets/board5.png";
+import IMG6 from "../../assets/board6.png";
 import ArtIMG1 from "../../assets/Artboard 1.jpg";
 
 const data = [
@@ -53,13 +54,22 @@ const data = [
     demo: "https://www.youtube.com/watch?v=udcM9DmbRXI",
     filter: "design"
   },
-    {
+  {
     id: 6,
     image: IMG5,
     title: "文宏體育用品社 電商平台",
     content:"B2C全端式電商網站，與3位同學以HTML、CSS、JavaScript、Bootstrap、PHP、MySQL一同撰寫，透過這個網站了解到這間店的歷史、店家的起源和中間轉變的過程及店家提供的專業服務，也提供使用者可以對喜歡的商品進行購買，並提供完整的後台功能讓商家做管理，希望能夠透過這個網站讓這間充滿特色和優良服務的老店被更多人知曉。",
     github: "https://github.com/02071819/Grad_Project2",
     demo: "https://www.youtube.com/watch?v=ptNqPqepGjI",
+    filter: "web"
+  },
+  {
+    id: 7,
+    image: IMG6,
+    title: "名錶電商網頁製作",
+    content:"本網頁以NodeJS後端技術製作，結合雙資料庫MySQL+MongoDB，以Roger Dubuis名錶買賣為主題內容，仿製全端架構的基本電商網站。此網頁具備購物車、登入/註冊與後台管理平台等後端功能",
+    github: "https://github.com/02071819/nodejs_watch_web",
+    demo: "https://www.youtube.com/watch?v=l4RIgWVTQ_k",
     filter: "web"
   },
 ];
