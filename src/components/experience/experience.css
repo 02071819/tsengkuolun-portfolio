@@ -58,6 +58,7 @@
 
 .portfolio__item-cta {
     display: flex; 
+    justify-content: center; 
     margin-bottom: 1rem;
     font-weight: 600;
     position: relative;
