@@ -47,12 +47,12 @@ const data = [
   },
   {
     id: 5,
-    image: ArtIMG1,
-    title: "Figma - 植物電子商店 App 設計",
-    content:"運用Figma工具，以植物電子商店為主題設計電商app，綠色和黑色為主色調呈現，分註冊、登入、首頁、商品頁、個人頁等頁面。",
-    github: "https://www.figma.com/file/Frzazy9levnEcgTMD5zFtn/HW5.1-iOS-App-%E8%A8%AD%E8%A8%88?node-id=0%3A1",
-    demo: "https://www.youtube.com/watch?v=udcM9DmbRXI",
-    filter: "design"
+    image: IMG6,
+    title: "名錶電商網頁製作",
+    content:"本網頁以NodeJS後端技術製作，結合雙資料庫MySQL+MongoDB，以Roger Dubuis名錶買賣為主題內容，仿製全端架構的基本電商網站。此網頁具備購物車、登入/註冊與後台管理平台等後端功能",
+    github: "https://github.com/02071819/nodejs_watch_web",
+    demo: "https://www.youtube.com/watch?v=l4RIgWVTQ_k",
+    filter: "web"
   },
   {
     id: 6,
@@ -65,12 +65,12 @@ const data = [
   },
   {
     id: 7,
-    image: IMG6,
-    title: "名錶電商網頁製作",
-    content:"本網頁以NodeJS後端技術製作，結合雙資料庫MySQL+MongoDB，以Roger Dubuis名錶買賣為主題內容，仿製全端架構的基本電商網站。此網頁具備購物車、登入/註冊與後台管理平台等後端功能",
-    github: "https://github.com/02071819/nodejs_watch_web",
-    demo: "https://www.youtube.com/watch?v=l4RIgWVTQ_k",
-    filter: "web"
+    image: ArtIMG1,
+    title: "Figma - 植物電子商店 App 設計",
+    content:"運用Figma工具，以植物電子商店為主題設計電商app，綠色和黑色為主色調呈現，分註冊、登入、首頁、商品頁、個人頁等頁面。",
+    github: "https://www.figma.com/file/Frzazy9levnEcgTMD5zFtn/HW5.1-iOS-App-%E8%A8%AD%E8%A8%88?node-id=0%3A1",
+    demo: "https://www.youtube.com/watch?v=udcM9DmbRXI",
+    filter: "design"
   },
 ];
 
