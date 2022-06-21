@@ -22,7 +22,7 @@ import Paper1 from "../../assets/paper1.png";
 import Paper2 from "../../assets/paper2.jpg";
 import Paper3 from "../../assets/paper3.png";
 import Paper4 from "../../assets/paper4.png";
-import Paper5 from "../../assets/paper5.JPG";
+import Paper5 from "../../assets/paper5.PNG";
 import Paper6 from "../../assets/paper6.PNG";
 import Paper7 from "../../assets/paper7.png";
 import { IoMdCloseCircleOutline } from "react-icons/io";
