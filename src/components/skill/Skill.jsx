@@ -25,6 +25,7 @@ import Paper4 from "../../assets/paper4.png";
 import Paper5 from "../../assets/paper5.PNG";
 import Paper6 from "../../assets/paper6.PNG";
 import Paper7 from "../../assets/paper7.png";
+import Paper8 from "../../assets/paper8.png";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Skill = () => {
@@ -64,6 +65,12 @@ const Skill = () => {
       Paperimage: Paper6,
       title: "台大資訊系統訓練班證明",
       content: "PHP+MySQL程式設計班",
+    },
+    {
+      id: 7,
+      Paperimage: Paper8,
+      title: "GOOGLE數位行銷學程",
+      content: "基礎數位行銷資格認證",
     },
   ];
 
