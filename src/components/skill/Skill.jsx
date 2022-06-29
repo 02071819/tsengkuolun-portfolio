@@ -66,12 +66,6 @@ const Skill = () => {
       title: "台大資訊系統訓練班證明",
       content: "PHP+MySQL程式設計班",
     },
-    {
-      id: 7,
-      Paperimage: Paper8,
-      title: "GOOGLE數位行銷學程",
-      content: "基礎數位行銷資格認證",
-    },
   ];
 
   let data2 = [
@@ -80,6 +74,12 @@ const Skill = () => {
       Paperimage: Paper2,
       title: "TQC證照",
       content: "電子商務概論",
+    },
+    {
+      id: 2,
+      Paperimage: Paper8,
+      title: "GOOGLE數位行銷學程",
+      content: "基礎數位行銷資格認證",
     },
   ];
 
