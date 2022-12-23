@@ -13,7 +13,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "動物保育網頁製作",
-    content:"本網頁以HTML、CSS、JavaScript技術製作，以動保為主題內容，劃分五大專案目標、物種保育、募資計畫、消息分享，讓瀏覽者更加重視且了解動物保育的知識。",
+    content:"此作品以HTML、CSS、JavaScript純前端技術製作，以動保為主題內容，劃分五大專案目標、物種保育、募資計畫、消息分享，讓瀏覽者更加重視且了解動物保育的知識。",
     github: "https://github.com/02071819/Animal_Support",
     demo: "https://02071819.github.io/Animal_Support/index",
     filter: "web"
@@ -31,7 +31,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: "汽車商形象網頁製作",
-    content:"本網頁以HTML、CSS、JavaScript技術製作，以汽車為主題內容，劃分介紹、熱門產品、特色介紹區塊，具有 RWD切版，方便使用者瀏覽。",
+    content:"此作品以HTML、CSS、JavaScript純前端技術製作，以汽車為主題內容，劃分介紹、熱門產品、特色介紹區塊，具有 RWD切版，方便使用者瀏覽。",
     github: "https://github.com/02071819/Car_Web",
     demo: "https://02071819.github.io/Car_Web/index",
     filter: "web"
@@ -49,7 +49,7 @@ const data = [
     id: 5,
     image: IMG6,
     title: "名錶電商網頁製作",
-    content:"本網頁以NodeJS後端技術製作，結合雙資料庫MySQL+MongoDB，以Roger Dubuis名錶買賣為主題內容，仿製全端架構的基本電商網站。此網頁具備購物車、登入/註冊與後台管理平台等後端功能",
+    content:"此作品以NodeJS後端技術製作，結合雙資料庫MySQL+MongoDB，以Roger Dubuis名錶買賣為主題內容，仿製全端架構的基本電商網站。此網頁具備購物車、登入/註冊與後台管理平台等後端功能",
     github: "https://github.com/02071819/nodejs_watch_web",
     demo: "https://www.youtube.com/watch?v=l4RIgWVTQ_k",
     filter: "web"
@@ -71,6 +71,15 @@ const data = [
     github: "https://www.figma.com/file/Frzazy9levnEcgTMD5zFtn/HW5.1-iOS-App-%E8%A8%AD%E8%A8%88?node-id=0%3A1",
     demo: "https://www.youtube.com/watch?v=udcM9DmbRXI",
     filter: "design"
+  },
+  {
+    id: 8,
+    image: Easystore,
+    title: "進口車電商平台",
+    content:"此作品運用EasyStore平台快速建置電商平台，此作品以進口車為主題，搭配線上虛擬官網預約訂購與現下實體店面賞車試乘，達到OMO理念，並結合IG、FB做行銷。",
+    github: "https://exoticcar.easy.co/",
+    demo: "https://youtu.be/gIVxHsceoVE",
+    filter: ""
   },
 ];
 
