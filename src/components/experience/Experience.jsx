@@ -7,6 +7,7 @@ import AppIMG4 from "../../assets/board4.jpg";
 import IMG5 from "../../assets/board5.png";
 import IMG6 from "../../assets/board6.png";
 import ArtIMG1 from "../../assets/Artboard 1.jpg";
+import Easystore from "../../assets/Easystore.png";
 
 const data = [
   {
