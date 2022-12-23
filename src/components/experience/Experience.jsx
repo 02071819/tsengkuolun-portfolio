@@ -80,7 +80,7 @@ const data = [
     content:"此作品運用EasyStore平台快速建置電商平台，此作品以進口車為主題，搭配線上虛擬官網預約訂購與現下實體店面賞車試乘，達到OMO理念，並結合IG、FB做行銷。",
     github: "https://exoticcar.easy.co/",
     demo: "https://youtu.be/gIVxHsceoVE",
-    filter: ""
+    filter: "web"
   },
 ];
 
