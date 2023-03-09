@@ -68,8 +68,7 @@ const Skill = () => {
       title: "台大資訊系統訓練班證明",
       content: "PHP+MySQL程式設計班",
     },
-     {
-     {
+    {
       id: 7,
       Paperimage: Paper9,
       title: "Hahow完課證明",
