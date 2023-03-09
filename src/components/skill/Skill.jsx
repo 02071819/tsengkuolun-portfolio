@@ -16,8 +16,9 @@ import JS from "../../assets/js_icon.png";
 import REACT from "../../assets/react_icon.png";
 import FIGMA from "../../assets/figma_icon.png";
 import PS from "../../assets/photoshop_icon.png";
-import php from "../../assets/php_icon.png";
+import PHP from "../../assets/php_icon.png";
 import NODEJS from "../../assets/nodejs_icon.png";
+import PYTHON from "../../assets/Python-logo-notext.svg.png";
 import Paper1 from "../../assets/paper1.png";
 import Paper2 from "../../assets/paper2.jpg";
 import Paper3 from "../../assets/paper3.png";
@@ -156,13 +157,18 @@ const Skill = () => {
           </SwiperSlide>
 
           <SwiperSlide className="graphbox">
-            <img src={php} alt="" />
+            <img src={PHP} alt="" />
             <h3>PHP</h3>
           </SwiperSlide>
 
           <SwiperSlide className="graphbox">
             <img src={NODEJS} alt="" />
             <h3>NodeJS</h3>
+          </SwiperSlide>
+
+          <SwiperSlide className="graphbox">
+            <img src={PYTHON} alt="" />
+            <h3>Python</h3>
           </SwiperSlide>
         </div>
       </Swiper>
