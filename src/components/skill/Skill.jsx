@@ -69,13 +69,8 @@ const Skill = () => {
       content: "PHP+MySQL程式設計班",
     },
      {
-      id: 7,
-      Paperimage: Paper6,
-      title: "台大資訊系統訓練班證明",
-      content: "PHP+MySQL程式設計班",
-    },
      {
-      id: 8,
+      id: 7,
       Paperimage: Paper9,
       title: "Hahow完課證明",
       content: "學習 AI 一把抓：點亮人工智慧技能樹",
