@@ -26,6 +26,7 @@ import Paper5 from "../../assets/paper5.PNG";
 import Paper6 from "../../assets/paper6.PNG";
 import Paper7 from "../../assets/paper7.png";
 import Paper8 from "../../assets/paper8.png";
+import Paper9 from "../../assets/Hahow 好學校完課證明 - 學習 AI 一把抓：點亮人工智慧技能樹.png";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Skill = () => {
@@ -65,6 +66,18 @@ const Skill = () => {
       Paperimage: Paper6,
       title: "台大資訊系統訓練班證明",
       content: "PHP+MySQL程式設計班",
+    },
+     {
+      id: 7,
+      Paperimage: Paper6,
+      title: "台大資訊系統訓練班證明",
+      content: "PHP+MySQL程式設計班",
+    },
+     {
+      id: 8,
+      Paperimage: Paper9,
+      title: "Hahow完課證明",
+      content: "學習 AI 一把抓：點亮人工智慧技能樹",
     },
   ];
 
