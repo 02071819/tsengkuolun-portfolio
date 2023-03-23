@@ -60,8 +60,8 @@ const data = [
     image: IMG5,
     title: "文宏體育用品社 電商平台",
     content:"B2C全端式電商網站，與3位同學以HTML、CSS、JavaScript、Bootstrap、PHP、MySQL一同撰寫，透過這個網站了解到這間店的歷史、店家的起源和中間轉變的過程及店家提供的專業服務，也提供使用者可以對喜歡的商品進行購買，並提供完整的後台功能讓商家做管理，希望能夠透過這個網站讓這間充滿特色和優良服務的老店被更多人知曉。",
-    github: "https://github.com/02071819/Grad_Project2",
-    demo: "https://winhorn.000webhostapp.com/",
+    github: "https://winhorn.000webhostapp.com/",
+    demo: "https://www.youtube.com/watch?v=Cn9_tdfwqm4&t=4s&ab_channel=KuoLunTseng",
     filter: "web"
   },
   {
