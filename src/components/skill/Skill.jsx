@@ -28,6 +28,7 @@ import Paper6 from "../../assets/paper6.PNG";
 import Paper7 from "../../assets/paper7.png";
 import Paper8 from "../../assets/paper8.png";
 import Paper9 from "../../assets/Hahow 好學校完課證明 - 學習 AI 一把抓：點亮人工智慧技能樹.png";
+import Paper10 from "../../assets/綠E盎然_消基會參賽證明_page-0001.jpg";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Skill = () => {
