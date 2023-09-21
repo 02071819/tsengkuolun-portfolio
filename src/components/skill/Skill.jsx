@@ -75,6 +75,12 @@ const Skill = () => {
       title: "Hahow完課證明",
       content: "學習 AI 一把抓：點亮人工智慧技能樹",
     },
+    {
+      id: 8,
+      Paperimage: Paper10,
+      title: "ATCC X YLL 永續創新個案大賽",
+      content: "ATCC X YLL 永續創新個案大賽",
+    },
   ];
 
   let data2 = [
