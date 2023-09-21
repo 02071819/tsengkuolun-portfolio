@@ -1,7 +1,6 @@
 import React from "react";
 import "./header.css";
 import CV from "../../assets/個人簡歷.docx.pdf";
-import ME from "../../assets/IMG_3013.JPG";
 import HeaderSocials from "./HeaderSocials";
 import background from "../../assets/background.jpg";
 
