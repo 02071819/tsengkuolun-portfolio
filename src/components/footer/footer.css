@@ -12,6 +12,7 @@ footer a {
 
 .permalinks {
     display: grid;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
@@ -32,6 +33,10 @@ footer a {
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
+}
+
+.workicon{
+    width: 25px;
 }
 
 .footer__socials a:hover {
