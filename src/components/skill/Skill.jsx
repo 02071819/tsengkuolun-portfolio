@@ -29,6 +29,7 @@ import Paper7 from "../../assets/paper7.png";
 import Paper8 from "../../assets/paper8.png";
 import Paper9 from "../../assets/Hahow 好學校完課證明 - 學習 AI 一把抓：點亮人工智慧技能樹.png";
 import Paper10 from "../../assets/綠E盎然_消基會參賽證明_page-0001.jpg";
+import Paper11 from "../../assets/toeic_certificate.JPG";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Skill = () => {
@@ -95,6 +96,12 @@ const Skill = () => {
       Paperimage: Paper8,
       title: "GOOGLE數位行銷學程",
       content: "基礎數位行銷資格認證",
+    },
+    {
+      id: 3,
+      Paperimage: Paper11,
+      title: "多益證照",
+      content: "Listening and Reading",
     },
   ];
 
