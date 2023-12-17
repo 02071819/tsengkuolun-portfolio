@@ -22,8 +22,8 @@ const About = () => {
           <div className="about__cards" data-aos="fade-up" data-aos-duration="2000">
             <article className="about__card">
               <MdOutlineComputer className="about__icon" />
-              <h4>Frontend Develop</h4>
-              <h5>前端開發</h5>
+              <h4>Web Develop</h4>
+              <h5>全端開發</h5>
             </article>
 
             <article className="about__card">
@@ -34,8 +34,8 @@ const About = () => {
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h4>Projects</h4>
-              <h5>5+ Completed</h5>
+              <h4>Data Analysis</h4>
+              <h5>數據分析</h5>
             </article>
           </div>
           
