@@ -19,11 +19,11 @@ const Header = () => {
           <br />
           <h4>Work hard,be kind and amazing things will happen.</h4>  
 
-          <div className="cta">
+{/*           <div className="cta">
             <a href={CV} download className="header_btn">
-              Download CV
+              我的履歷
             </a>
-          </div>
+          </div> */}
         </div>
         <HeaderSocials />
 
