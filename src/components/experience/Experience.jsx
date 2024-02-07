@@ -8,6 +8,7 @@ import IMG5 from "../../assets/board5.png";
 import IMG6 from "../../assets/board6.png";
 import ArtIMG1 from "../../assets/Artboard 1.jpg";
 import Easystore from "../../assets/Easystore.png";
+import Cocktail from "../../assets/cocktail_bg.jpg";
 
 const data = [
   {
@@ -84,7 +85,7 @@ const data = [
   },
     {
     id: 9,
-    image: Easystore,
+    image: Cocktail,
     title: "調酒介紹網",
     content:"此作品運用Vue框架製作，以調酒為主題，讓瀏覽者更加認識酒類與經典調酒的相關知識。",
     github: "https://github.com/02071819/wine_project",
