@@ -82,6 +82,15 @@ const data = [
     demo: "https://youtu.be/gIVxHsceoVE",
     filter: "web"
   },
+    {
+    id: 9,
+    image: Easystore,
+    title: "調酒介紹網",
+    content:"此作品運用Vue框架製作，以調酒為主題，讓瀏覽者更加認識酒類與經典調酒的相關知識。",
+    github: "https://github.com/02071819/wine_project",
+    demo: "wine-project-m1wauq4u7-02071819.vercel.app",
+    filter: "web"
+  },
 ];
 
 const Experience = () => {
