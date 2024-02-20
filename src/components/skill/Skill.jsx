@@ -79,8 +79,8 @@ const Skill = () => {
     {
       id: 8,
       Paperimage: Paper10,
-      title: "ATCC X YLL",
-      content: "永續創新個案大賽",
+      title: "ATCC X YLL 永續創新個案大賽",
+      content: "參賽證明",
     },
   ];
 
