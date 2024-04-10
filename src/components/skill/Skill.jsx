@@ -30,6 +30,7 @@ import Paper8 from "../../assets/paper8.png";
 import Paper9 from "../../assets/Hahow 好學校完課證明 - 學習 AI 一把抓：點亮人工智慧技能樹.png";
 import Paper10 from "../../assets/綠E盎然_消基會參賽證明_page-0001.jpg";
 import Paper11 from "../../assets/toeic_certificate.JPG";
+import Paper12 from "../../assets/AWSome.jpg";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Skill = () => {
@@ -56,7 +57,7 @@ const Skill = () => {
       id: 4,
       Paperimage: Paper4,
       title: "參與 TAICHI 2019",
-      content: "大會志工",
+      content: "大會志工證明",
     },
     {
       id: 5,
@@ -81,6 +82,12 @@ const Skill = () => {
       Paperimage: Paper10,
       title: "ATCC X YLL 永續創新個案大賽",
       content: "參賽證明",
+    },
+    {
+      id: 9,
+      Paperimage: Paper12,
+      title: "AWSome DAY 線上雲端培訓日",
+      content: "上課證明",
     },
   ];
 
