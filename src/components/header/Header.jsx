@@ -15,7 +15,7 @@ const Header = () => {
           <h1>Alan Tseng</h1>
           <h2 className="text-light">Student</h2>
           <br />
-          <h4>Hi ! 我是Alan曾國綸，對Web技術及UI/UX充滿熱情，熱於分享所學。樂觀誠實，持續成長，是我的學習態度。</h4>
+          <h4>Hi ! 我是Alan曾國綸，對Web技術、UI/UX及數據分析充滿熱情，熱於分享所學。樂觀誠實，持續成長，是我的學習態度。</h4>
           <br />
           <h4>Work hard,be kind and amazing things will happen.</h4>  
 
