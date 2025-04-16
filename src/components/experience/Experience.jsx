@@ -116,6 +116,7 @@ const Experience = () => {
         <span className="work__item btn btn-warning" onClick={() => filterItem('web')}>Web</span>
         <span className="work__item btn btn-warning" onClick={() => filterItem('app')}>App</span>
         <span className="work__item btn btn-warning" onClick={() => filterItem('design')}>Design</span>
+        <span className="work__item btn btn-warning" onClick={() => filterItem('analysis')}>Design</span>
       </div>
 
       <div className="container portfolio__container" data-aos="fade-up" data-aos-duration="2000">
