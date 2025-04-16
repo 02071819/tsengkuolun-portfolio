@@ -118,7 +118,7 @@ const data = [
     id: 12,
     image: House_analy,
     title: "房價資料分析及機器學習",
-    content:"運用python爬蟲與分析，收集26,000多筆房屋價格數據，而後進行迴歸分析，並使用 Power BI進行資料視覺化的呈現，以分析台北、新北、桃園、新竹、台中、彰化、雲林、嘉義、台南及高雄的各類型房價資料。",
+    content:"運用python爬蟲與分析，收集26,000多筆2024年11月房屋價格數據，而後進行迴歸分析，並使用 Power BI進行資料視覺化的呈現，以分析台北、新北、桃園、新竹、台中、彰化、雲林、嘉義、台南及高雄的各類型房價資料。",
     github: "https://colab.research.google.com/drive/1hxjEMP2aVqrnnFxHA207WPkQhNXte0wn?usp=sharing",
     demo: "https://docs.google.com/presentation/d/1ixbMm8N8kbEAPegFfwvV7duDTsLDsQjEGxArRg-Z2ik/edit?usp=sharing",
     filter: "analysis"
