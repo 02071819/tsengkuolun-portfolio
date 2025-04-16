@@ -127,7 +127,7 @@ const data = [
     id: 13,
     image: Onlineshop_analy,
     title: "線上購物者的行為分析與模型探討",
-    content:"運用python爬蟲與分析，以PTT八卦板對於從2023年1月1日~3月31日中4,500多筆文字資料來分析大眾對於物價上漲的反應，關鍵字詞為物價、疫情。",
+    content:"運用python分析UCI公開資料平台上的Online Shoppers Purchasing Intention資料集，以12,000多筆資料預測線上買家的行為，透過機器學習模型訓練與SHAP分析，探討不同模型間預測上的表現，其模型準確率達 90%以上",
     github: "https://colab.research.google.com/drive/1LNcpmL5fkxvUDdjy9n9pW2mstHEvj-Ao?usp=sharing",
     demo: "https://docs.google.com/presentation/d/1WGXcgSr5AOJZ2kGmuStY5rsA_b0Wuj4NQo5O3t6xUNM/edit?usp=sharing",
     filter: "analysis"
