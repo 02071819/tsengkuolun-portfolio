@@ -152,7 +152,7 @@ const Experience = () => {
       <h2>My Recent Work</h2>
 
       <div className="work__filters">
-        {/* <span className="work__item active-work" onClick={() => setItems(data)}>All</span> */}
+        <span className="work__item active-work" onClick={() => setItems(data)}>All</span>
         <span className="work__item btn btn-warning" onClick={() => filterItem('web')}>Web</span>
         <span className="work__item btn btn-warning" onClick={() => filterItem('app')}>App</span>
         <span className="work__item btn btn-warning" onClick={() => filterItem('design')}>Design</span>
