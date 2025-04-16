@@ -9,6 +9,10 @@ import IMG6 from "../../assets/board6.png";
 import ArtIMG1 from "../../assets/Artboard 1.jpg";
 import Easystore from "../../assets/Easystore.png";
 import Cocktail from "../../assets/cocktail_bg.jpg";
+import CarDesign from "../../assets/Car_design.png";
+import Ptt_analy from "../../assets/ptt分析.jpg";
+import House_analy from "../../assets/MacBook-Pro-15_1.jpg";
+import Onlineshop_analy from "../../assets/MacBook-Pro-15_2.jpg";
 
 const data = [
   {
@@ -83,7 +87,7 @@ const data = [
     demo: "https://youtu.be/gIVxHsceoVE",
     filter: "web"
   },
-    {
+  {
     id: 9,
     image: Cocktail,
     title: "調酒介紹網",
@@ -91,6 +95,42 @@ const data = [
     github: "https://github.com/02071819/wine_project",
     demo: "https://wine-project-seven.vercel.app/",
     filter: "web"
+  },
+  {
+    id: 10,
+    image: CarDesign,
+    title: "Figma - 汽車官網 Web 設計",
+    content:"運用Figma工具，以汽車官網為主題設計Web網頁，以黑色與白色為主色調呈現，分 首頁、商品頁、商品細節頁等頁面。",
+    github: "https://www.figma.com/proto/cSaEeUkKMXarBbxXUtW9ah/%E5%80%8B%E4%BA%BA%E5%8C%96%E5%95%86%E5%BA%97Web?node-id=0-1&t=fm6bHGVafjzJb8ry-1",
+    demo: "https://dribbble.com/shots/25163072-STAR-CAR-Car-E-commerce-Website?utm_source=Clipboard_Shot&utm_campaign=alan_tseng&utm_content=STAR%20CAR%20-%20Car%20E-commerce%20Website&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=alan_tseng&utm_content=STAR%20CAR%20-%20Car%20E-commerce%20Website&utm_medium=Social_Share",
+    filter: "design"
+  },
+  {
+    id: 11,
+    image: Ptt_analy,
+    title: "探討2023年的八卦板鄉民對於物價上漲的反應",
+    content:"運用python爬蟲與分析，以PTT八卦板對於從2023年1月1日~3月31日中4,500多筆文字資料來分析大眾對於物價上漲的反應，關鍵字詞為物價、疫情。",
+    github: "https://github.com/02071819/SMA_project",
+    demo: "https://docs.google.com/presentation/d/1JOBEVSDVov30I4xWWkTgymTbGCEaRcrJWN6vCypnC8U/edit?usp=sharing",
+    filter: "analysis"
+  },
+  {
+    id: 12,
+    image: House_analy,
+    title: "房價資料分析及機器學習",
+    content:"運用python爬蟲與分析，收集26,000多筆房屋價格數據，而後進行迴歸分析，並使用 Power BI進行資料視覺化的呈現，以分析台北、新北、桃園、新竹、台中、彰化、雲林、嘉義、台南及高雄的各類型房價資料。",
+    github: "https://colab.research.google.com/drive/1hxjEMP2aVqrnnFxHA207WPkQhNXte0wn?usp=sharing",
+    demo: "https://docs.google.com/presentation/d/1ixbMm8N8kbEAPegFfwvV7duDTsLDsQjEGxArRg-Z2ik/edit?usp=sharing",
+    filter: "analysis"
+  },
+  {
+    id: 13,
+    image: Onlineshop_analy,
+    title: "線上購物者的行為分析與模型探討",
+    content:"運用python爬蟲與分析，以PTT八卦板對於從2023年1月1日~3月31日中4,500多筆文字資料來分析大眾對於物價上漲的反應，關鍵字詞為物價、疫情。",
+    github: "https://colab.research.google.com/drive/1LNcpmL5fkxvUDdjy9n9pW2mstHEvj-Ao?usp=sharing",
+    demo: "https://docs.google.com/presentation/d/1WGXcgSr5AOJZ2kGmuStY5rsA_b0Wuj4NQo5O3t6xUNM/edit?usp=sharing",
+    filter: "analysis"
   },
 ];
 
@@ -116,7 +156,7 @@ const Experience = () => {
         <span className="work__item btn btn-warning" onClick={() => filterItem('web')}>Web</span>
         <span className="work__item btn btn-warning" onClick={() => filterItem('app')}>App</span>
         <span className="work__item btn btn-warning" onClick={() => filterItem('design')}>Design</span>
-        <span className="work__item btn btn-warning" onClick={() => filterItem('analysis')}>Design</span>
+        <span className="work__item btn btn-warning" onClick={() => filterItem('analysis')}>Analysis</span>
       </div>
 
       <div className="container portfolio__container" data-aos="fade-up" data-aos-duration="2000">
